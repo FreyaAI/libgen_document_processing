@@ -1,8 +1,5 @@
-from operator import itemgetter
 from pathlib import Path
-from docx import Document
-import PIL.Image
-import io, os, fitz, json
+import os
 import subprocess
 
 

@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-import json
 import fitz
 import pandas as pd
 
@@ -114,7 +113,7 @@ class EPUBDocument(Document):
 class DOCXDocument(Document):
     def open(filepath):
         # Open the DOCX file using a DOCX document object
-        return Document(
+        return DocxDocumentOBJ(
             filepath
         )  # Assuming Document here refers to a library for handling DOCX files
 
