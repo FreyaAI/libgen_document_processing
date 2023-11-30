@@ -1,4 +1,4 @@
-# document_scraping
+# Document Processing for Libgen book files
 
 Document Scraping is a package to scrape text/image based data from document containers. It uses various libraries to gain the capability of scraping a diverse set of documents. The output is a JSON file and a folder of images.
 
