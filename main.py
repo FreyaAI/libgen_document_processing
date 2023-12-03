@@ -51,24 +51,28 @@ def makedirsifnotexists(path):
 def parse_args():
     parser = argparse.ArgumentParser(description="Process some integers.")
     parser.add_argument(
+        "-s",
         "--source_dir",
         type=str,
         required=True,
         help="Source directory",
     )
     parser.add_argument(
+        "-o",
         "--output_dir",
         type=str,
         default="output",
         help="Output directory",
     )
     parser.add_argument(
+        "-m",
         "--mission_files_list",
         type=str,
         default="mission_files_list.json",
         help="Mission files list",
     )
     parser.add_argument(
+        "-b",
         "--batch_count",
         type=int,
         default=10,
