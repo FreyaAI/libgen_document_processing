@@ -11,3 +11,4 @@ six==1.16.0
 tqdm==4.66.1
 typing_extensions==4.8.0
 tzdata==2023.3
+pyarrow==14.0.1
